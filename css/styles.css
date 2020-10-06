@@ -1,0 +1,99 @@
+
+#title{
+  background-color: #12B1EF;
+  background-image: url("https://i.pinimg.com/originals/b2/48/f9/b248f9c03e49ff63f6fee0d83a64c9e9.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+#footer{
+  
+}
+
+ html, body {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.container-bottom{
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
+.container-footer{
+  padding-top: 5%;
+}
+.container-mid{
+  padding-top: 10%;
+}
+
+.copyright{
+  padding-top: 5%;
+}
+
+
+.dates{
+  text-align: right;
+  font-style: italic;
+}
+
+.descrip-exp{
+  text-align: left;
+}
+.descrip-intro{
+  padding: 0 10%;
+  text-align: justify;
+}
+
+.exp-title{
+  padding-top: 5%;
+  font-size: 1.2rem;
+}
+
+
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+  font-style: normal;
+}
+
+.radiuspic{
+  max-width: 70%;
+  max-height: 70%;
+  border-radius: 100%;
+}
+
+.radiuspic-exp{
+  max-width: 25%;
+  max-height: 25%;
+  border-radius: 100%;
+}
+.radiuspic-skills{
+  max-width: 30%;
+  max-height: 30%;
+  border-radius: 100%;
+}
+
+
+.top-navbar{
+  padding: 10% 10%;
+}
