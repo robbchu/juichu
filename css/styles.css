@@ -82,15 +82,11 @@ h3{
   border-radius: 100%;
 }
 
-.radiuspic-exp{
-  max-width: 25%;
-  max-height: 25%;
-  border-radius: 100%;
-}
-
-.radiuspic-skills{
-  max-width: 30%;
-  max-height: 30%;
+.radiuspic{
+  /* max-width: 25%;
+  max-height: 25%; */
+  width: 100px;
+  height: 100px;
   border-radius: 100%;
 }
 
