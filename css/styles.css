@@ -6,7 +6,7 @@
   height: 100%;
 }
 
- html, body {
+html, body {
   height: 100%;
   margin: 0;
   text-align: center;
@@ -19,70 +19,49 @@ h1{
   font-size: 3rem;
   line-height: 1.5;
 }
-h2{
-  font-family: 'Ubuntu', sans-serif;
-}
-h3{
+h2, h3{
   font-family: 'Ubuntu', sans-serif;
 }
 
-.col-exp{
-  padding:0 5%;
-}
 
+
+/* bootstrap4 */
 .container-fluid{
   padding: 10% 15%;
 }
 
-.container-bottom{
-  padding-top: 10%;
-  padding-bottom: 30%;
-}
-.container-footer{
-  padding-top: 5%;
-}
-.container-intro{
-  padding-top: 10%;
-  padding-bottom: 20%;
-}
-.container-mid{
-  padding-top: 10%;
-}
+/* title */
 .container-top{
   padding-top:5%;
 }
-
-.copyright{
-  padding-top: 5%;
+.profilepic{
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 100%;
+}
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+  font-style: normal;
+}
+.nav-item{
+  padding: 0 10px;
+}
+.top-navbar{
+  padding-bottom: 10%;
 }
 
 
-.dates{
-  text-align: right;
-  font-style: italic;
-}
-
-.descrip-exp{
-  text-align: left;
-  padding-bottom: 15%;
+/* intro */
+.container-intro{
+  padding-top: 10%;
+  padding-bottom: 20%;
 }
 .descrip-intro{
   padding: 0 10%;
   text-align: justify;
 }
 
-
-.navbar-brand{
-  font-family: 'Pacifico', cursive;
-  font-style: normal;
-}
-
-.radiuspic-profile{
-  max-width: 40%;
-  max-height: 40%;
-  border-radius: 100%;
-}
-
+/* Mid container */
 .radiuspic{
   /* max-width: 25%;
   max-height: 25%; */
@@ -91,15 +70,72 @@ h3{
   border-radius: 100%;
 }
 
+/* Educations */
+/* Experiences */
+.container-mid{
+  padding-top: 10%;
+}
+.col-exp{
+  padding:0 5%;
+}
+.dates{
+  text-align: right;
+  font-style: italic;
+}
+.descrip-exp{
+  text-align: left;
+  padding-bottom: 15%;
+}
 .title-exp{
-  padding: 5% 0;
+  margin: 5% 0;
   font-size: 1.2rem;
 }
-
 .title-section{
   padding-bottom: 5%;
 }
+/* Skills */
+.container-bottom{
+  padding-top: 10%;
+  padding-bottom: 30%;
+}
+/* footer */
+.copyright{
+  padding-top: 5%;
+}
 
-.top-navbar{
-  padding-bottom: 10%;
+
+
+@media screen and (max-width: 900px) {
+  body{
+    font-size: 1.3rem;
+  }
+  .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 2rem;
+  }
+  .container-top{
+    padding-top: 15%;
+  }
+  .top-title{
+    padding: 10%;
+    font-size: 2rem;
+  }
+  .dates{
+    text-align: right;
+    font-style: italic;
+    font-size: 1rem;
+  }
+  .descrip-intro{
+    padding: 0 15%;
+    text-align: left;
+  }
+  .title-section{
+    font-size: 2rem;
+    padding: 15% 0;
+  }
+  .title-exp{
+    margin: 10% 0;
+    font-size: 1.5rem;
+  }
 }
