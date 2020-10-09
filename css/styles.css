@@ -94,7 +94,6 @@ h2, h3{
 }
 /* Skills */
 .container-bottom{
-  padding-top: 10%;
   padding-bottom: 30%;
 }
 /* footer */
@@ -124,7 +123,7 @@ h2, h3{
     font-size: 2rem;
   }
   .container-mid{
-    padding-top: 20%;
+    padding-top: 15%;
   }
   .dates{
     text-align: right;
