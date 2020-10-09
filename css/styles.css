@@ -53,11 +53,10 @@ h2, h3{
 
 /* intro */
 .container-intro{
-  padding-top: 10%;
-  padding-bottom: 20%;
+  padding: 10% 10% 20%;
 }
 .descrip-intro{
-  padding: 0 10%;
+  /* padding: 0 10%; */
   text-align: justify;
 }
 
@@ -105,9 +104,12 @@ h2, h3{
 
 
 
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
   body{
     font-size: 1.3rem;
+  }
+  .top-navbar{
+    padding-bottom: 30%;
   }
   .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
@@ -121,13 +123,16 @@ h2, h3{
     padding: 10%;
     font-size: 2rem;
   }
+  .container-mid{
+    padding-top: 20%;
+  }
   .dates{
     text-align: right;
     font-style: italic;
     font-size: 1rem;
   }
   .descrip-intro{
-    padding: 0 15%;
+    /* padding: 0 5%; */
     text-align: left;
   }
   .title-section{
@@ -137,5 +142,8 @@ h2, h3{
   .title-exp{
     margin: 10% 0;
     font-size: 1.5rem;
+  }
+  .footer-copyright{
+    font-size: 0.5rem;
   }
 }
