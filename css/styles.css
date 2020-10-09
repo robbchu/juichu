@@ -102,13 +102,13 @@ h2, h3{
 }
 
 
-
+/* ipad */
 @media only screen and (max-width: 768px) {
   body{
     font-size: 1.3rem;
   }
   .top-navbar{
-    padding-bottom: 30%;
+    padding-bottom: 15%;
   }
   .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
@@ -143,6 +143,51 @@ h2, h3{
     font-size: 1.5rem;
   }
   .footer-copyright{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* iphone X, Pixel 2 XL */
+@media only screen and (max-width: 420px) {
+  body{
+    font-size: 1rem;
+  }
+  .top-navbar{
+    padding-bottom: 30%;
+  }
+  .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  .container-top{
+    padding-top: 15%;
+  }
+  .top-title{
+    padding: 10%;
+    font-size: 1.5rem;
+  }
+  .container-mid{
+    padding-top: 15%;
+  }
+  .dates{
+    text-align: right;
+    font-style: italic;
+    font-size: 0.8rem;
+  }
+  .descrip-intro{
+    /* padding: 0 5%; */
+    text-align: left;
+  }
+  .title-section{
+    font-size: 1.5rem;
+    padding: 15% 0;
+  }
+  .title-exp{
+    margin: 10% 0;
+    font-size: 1.2rem;
+  }
+  .footer-copyright{
+    font-size: 0.6rem;
   }
 }
