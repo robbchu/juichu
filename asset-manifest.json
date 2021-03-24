@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/robbchu/juichu.git/static/css/main.f5497eb8.chunk.css",
+    "main.js": "/robbchu/juichu.git/static/js/main.3f433b6f.chunk.js",
+    "main.js.map": "/robbchu/juichu.git/static/js/main.3f433b6f.chunk.js.map",
+    "runtime-main.js": "/robbchu/juichu.git/static/js/runtime-main.d94dd15a.js",
+    "runtime-main.js.map": "/robbchu/juichu.git/static/js/runtime-main.d94dd15a.js.map",
+    "static/js/2.19e99e5d.chunk.js": "/robbchu/juichu.git/static/js/2.19e99e5d.chunk.js",
+    "static/js/2.19e99e5d.chunk.js.map": "/robbchu/juichu.git/static/js/2.19e99e5d.chunk.js.map",
+    "index.html": "/robbchu/juichu.git/index.html",
+    "precache-manifest.7128d4c6292b3f69204d3d96f0093b4b.js": "/robbchu/juichu.git/precache-manifest.7128d4c6292b3f69204d3d96f0093b4b.js",
+    "service-worker.js": "/robbchu/juichu.git/service-worker.js",
+    "static/css/main.f5497eb8.chunk.css.map": "/robbchu/juichu.git/static/css/main.f5497eb8.chunk.css.map",
+    "static/js/2.19e99e5d.chunk.js.LICENSE.txt": "/robbchu/juichu.git/static/js/2.19e99e5d.chunk.js.LICENSE.txt",
+    "static/media/inq.jpg": "/robbchu/juichu.git/static/media/inq.83c5cda5.jpg",
+    "static/media/ntu.jpg": "/robbchu/juichu.git/static/media/ntu.ce05ef2c.jpg",
+    "static/media/resume.pdf": "/robbchu/juichu.git/static/media/resume.79e96d7a.pdf",
+    "static/media/robertchu.jpg": "/robbchu/juichu.git/static/media/robertchu.7b3f721a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d94dd15a.js",
+    "static/js/2.19e99e5d.chunk.js",
+    "static/css/main.f5497eb8.chunk.css",
+    "static/js/main.3f433b6f.chunk.js"
+  ]
+}
